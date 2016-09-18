@@ -37,9 +37,9 @@ int clapCount = 0;
 int clapWaitingTime = 3000; // ms
 
 // Tweet Settings
-String API = "C5DR39LUZFQGFA1J";
-const char* ssid = "AndroidAP";
-const char* password = "djpb2458";
+String API = "C5DR39LUZFQGFA1J"; // api key for tweets
+const char* ssid = "AndroidAP"; // wireless modem ssid
+const char* password = "djpb2458"; // wireless password
 String tweet = "";
 WiFiClient client;
 
